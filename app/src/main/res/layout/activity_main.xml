@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        style="@style/textview"
+        android:text="Type and Run"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="25sp"/>
+    
+    <TextView
+        style="@style/textview"
+        android:text="Make:"/>
+
+
+    <EditText
+        android:id="@+id/Etmake"
+        style="@style/edittext"
+        />
+    <TextView
+        style="@style/textview"
+        android:text="Year:"/>
+
+    <EditText
+        android:id="@+id/Etyear"
+        style="@style/edittext"
+
+        />
+    <TextView
+        style="@style/textview"
+        android:text="Color:"/>
+
+    <EditText
+        android:id="@+id/Etcolor"
+        style="@style/edittext"
+        />
+    <TextView
+        style="@style/textview"
+        android:text="Purchase Price:"/>
+
+    <EditText
+        android:id="@+id/Etpurchase"
+        style="@style/edittext"
+        />
+    <TextView
+        style="@style/textview"
+        android:text="Engine Size (Litre)"/>
+
+    <EditText
+        android:id="@+id/Etenginesize"
+        style="@style/edittext"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/Btncar"
+            style="@style/button"
+            android:text="CREATE CAR"
+            android:layout_marginLeft="70dp"
+            />
+        <Button
+            android:id="@+id/Btndiesel"
+            style="@style/button"
+            android:text="CREATE DIESEL"
+            android:layout_marginLeft="10dp"
+            />
+    </LinearLayout>
+    <EditText
+        android:id="@+id/Etresult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"/>
+</LinearLayout>
